@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-const todoRouter = require("./router/todos.routes"); // Nom o'zgardi
+const todoRouter = require("./router/todos.routes"); 
 require("dotenv").config();
 
 const app = express();
