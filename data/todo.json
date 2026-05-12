@@ -3,5 +3,10 @@
         "id": "ad3e3077-c702-4414-bf98-05453e977564",
         "title": "Learn Backend",
         "completed": false
+    },
+    {
+        "id": "37520f26-69d5-45a0-b0f9-079be55fdd0a",
+        "title": "Learn Backend",
+        "completed": true
     }
 ]
