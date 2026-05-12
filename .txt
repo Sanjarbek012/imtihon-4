@@ -24,4 +24,8 @@ http://localhost:3000/todos/add
 
  7.(countCompletedTodos)
 GET
-http://localhost:3000/todos/count_completed
+http://localhost:3000/todos/count_completed 
+
+
+8 port
+http://localhost/3000

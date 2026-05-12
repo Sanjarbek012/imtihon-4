@@ -12,6 +12,4 @@ app.use(express.json());
 // Router ulanishi
 app.use("/todos", todoRouter); // Endi /todos orqali kiriladi
 
-app.listen(PORT, () => {
-    console.log("Server is running at: http://localhost:" + PORT);
-});
+app.listen(PORT);
