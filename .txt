@@ -1,0 +1,27 @@
+1.(getAllTodos)
+GET
+ http://localhost:3000/todos/get_all 
+
+ 2.(addTodo)
+ POST
+http://localhost:3000/todos/add
+
+3.(getOneTodo)
+ GET
+ http://localhost:3000/todos/get_one/id
+
+ 4.(updateTodo)
+ PUT
+ http://localhost:3000/todos/update/id
+
+ 5.(toggleTodoStatus)
+  PATCH
+ http://localhost:3000/todos/toggle_status/id
+
+ 6.(clearCompletedTodos)
+ DELETE
+ http://localhost:3000/todos/clear_completed
+
+ 7.(countCompletedTodos)
+GET
+http://localhost:3000/todos/count_completed
