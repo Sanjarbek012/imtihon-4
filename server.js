@@ -8,8 +8,6 @@ const PORT = process.env.PORT || 3000;
 
 app.use(cors());
 app.use(express.json());
-
-// Router ulanishi
-app.use("/todos", todoRouter); // Endi /todos orqali kiriladi
+app.use("/todos", todoRouter); 
 
 app.listen(PORT);
